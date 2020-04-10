@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.springframework.ide.eclipse.boot.launch">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/ppmtoolapi/src/main/java/com/example/demo/PpmtoolapiApplication.java"/>
+        <listEntry value="/ppmtoolapi/src/main/java/in/blog/ppmapi/PpmtoolapiApplication.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
     <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.springframework.ide.eclipse.boot.launch.BootMavenClassPathProvider"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.example.demo.PpmtoolapiApplication"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="in.blog.ppmapi.PpmtoolapiApplication"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ppmtoolapi"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.springframework.ide.eclipse.boot.launch.BootMavenSourcePathProvider"/>
     <stringAttribute key="process_factory_id" value="org.springframework.ide.eclipse.boot.launch.process.BootProcessFactory"/>
