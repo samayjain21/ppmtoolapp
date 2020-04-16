@@ -1,0 +1,5 @@
+package in.blog.ppmapi.exception;
+
+public class ProjectIdExceptionResponse {
+
+}

@@ -1,0 +1,27 @@
+package in.blog.ppmapi.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.blog.ppmapi.domain.Project;
+import in.blog.ppmapi.repository.ProjectRepository;
+
+@Service
+public class ProjectService {
+
+	@Autowired
+	private ProjectRepository projectRepository;
+	
+	public Project saveOrUpdate(Project project) {
+		project.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
+		return projectRepository.save(project);
+	}
+	
+	public Project findProjectByIdentifier(String projectId) {
+		Project project = projectRepository.findByProjectIdentifier(projectId.toUpperCase());
+		if (project == null) {
+			//
+		}
+		return project;
+	}
+}

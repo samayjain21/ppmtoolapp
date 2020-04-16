@@ -1,0 +1,9 @@
+package in.blog.ppmapi.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import in.blog.ppmapi.domain.Project;
+
+public interface ProjectRepository extends CrudRepository<Project, Long>{
+
+}

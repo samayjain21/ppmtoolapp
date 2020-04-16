@@ -1,0 +1,13 @@
+package in.blog.ppmapi.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.validation.BindingResult;
+import org.springframework.http.ResponseEntity;
+
+@Service
+public class MapValidationErrorService {
+
+	public ResponseEntity<?> mapValidationError(BindingResult result){
+		
+	}
+}
